@@ -3,6 +3,7 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif, sans-serif;
     /* font-family: 'poppins', sans-serif; */
+    box-sizing: border-box;
 
 }
 
@@ -111,9 +112,11 @@ nav {
     /* background: #CBDFFA; */
     flex-basis: 25%;
     position: sticky;
-    top: 80px;
+    /* top: 80px; */
     align-self: flex-start;
+    padding: 24px 8px;
 }
+
 .important-links {
     border-bottom: 1px solid #CCC;
 }
@@ -161,8 +164,116 @@ nav {
 /* Right Sidebar */
 .right-sidebar {
     /* background: #CBDFFA; */
+    background: #FFF;
     flex-basis: 25%;
     position: sticky;
     top: 80px;
     align-self: flex-start;
+    padding: 24px;
+    color: #626262;
+    border-radius: 12px;
 }
+
+.right-sidebar-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.right-sidebar-title a {
+    text-decoration: none;
+    color: #1876F2;
+    font-size: 12px;
+}
+/* Events */
+.event {
+    display: flex;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.left-event {
+    border-radius: 12px;
+    height: 64px;
+    width: 64px;
+    margin-right: 16px;
+    padding-top: 12px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+.left-event span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1876F2;
+    color: #FFF;
+    font-size: 12px;
+    padding: 4px 0;
+}
+
+.event p {
+    font-size: 12px;
+}
+
+.event a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #1876F2
+}
+
+.right-sidebar-ads {
+    width: 100%;
+    margin-bottom: 24px;
+    border-radius: 8px;
+}
+
+.online-list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.online-list .online img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.online-list .online {
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.online-list .online::after {
+    top: unset;
+    bottom: 4px;
+}
+
+/* .right-sidebar-user-icon img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.right-sidebar-user-icon {
+    margin-left: 30px;
+}
+
+.online {
+    position: relative;
+}
+
+.online::after {
+    content: '';
+    width: 7px;
+    height: 7px;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    background-color: #41DB51;
+    position: absolute;
+    top: 0;
+    right: 0;
+} */
