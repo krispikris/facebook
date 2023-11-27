@@ -30,7 +30,7 @@ nav {
     /* color: black */
 }
 
-/* Left Navigation Bar */
+/* Left Navigation Bar | facebook-icon • search-bar */
 .logo {
     width: 32px;
     height: 32px;
@@ -39,7 +39,7 @@ nav {
 
 .search-box {
     background: #EFEFEF;
-    width: 200px;
+    width: 224px;
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -47,7 +47,7 @@ nav {
 }
 
 .search-box img {
-    width: 16px;
+    width: 20px;
     padding: 4px;
 }
 
@@ -55,11 +55,11 @@ nav {
     width: 100%;
     background: transparent;
     border: 0;
-    /* padding: 10px; */
+    padding: 4px;
     /* outline: none; */
 }
 
-/* Right Navigation Bar */
+/* Right Navigation Bar | icons (watch, messages, notifications) • profile-img */
 .nav-right ul li {
     display: inline-block;
     list-style: none;
@@ -100,14 +100,14 @@ nav {
     right: 0;
 }
 
-/* Main Content */
+/* Container | left-sidebar • main-content • right-sidebar */
 .container {
     display: flex;
     justify-content: space-between;
     padding: 12px 5%;
-} 
+}
 
-/* Left Sidebar */
+/* Left Sidebar | important-links (news, friends, groups, marketplace, watch) • shortcut-links */
 .left-sidebar {
     /* background: #CBDFFA; */
     flex-basis: 25%;
@@ -143,7 +143,6 @@ nav {
     color: #626262;
     font-weight: 500;
     margin: 24px 0;
-
 }
 
 .shortcut-links a img {
@@ -152,16 +151,49 @@ nav {
     border-radius: 4px;
 }
 
-/* Middle */
+/* Middle | main-content */
 .main-content {
-    background: #4c7bb9;
+    /* background: #4c7bb9; */
     flex-basis: 48%;
     position: sticky;
-    top: 80px;
+    top: 74px;
     align-self: flex-start;
 }
+.story-gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
 
-/* Right Sidebar */
+.story {
+    flex-basis: 18%;
+    padding-top: 32%;
+    position: relative;
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(images/status-1.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+}
+
+.story img {
+    position: absolute;
+    width: 48px;
+    border-radius: 50%;
+    top: 12px;
+    left: 12px;
+    border-radius: 5px solid #626262;
+}
+
+.story p {
+    position: absolute;
+    bottom: 12px;
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    font-size: 12px;
+}
+
+/* Right Sidebar | events • advertisement • friends (online list) */
 .right-sidebar {
     /* background: #CBDFFA; */
     background: #FFF;
@@ -180,11 +212,13 @@ nav {
     justify-content: space-between;
     margin-bottom: 16px;
 }
+
 .right-sidebar-title a {
     text-decoration: none;
     color: #1876F2;
     font-size: 12px;
 }
+
 /* Events */
 .event {
     display: flex;
@@ -252,28 +286,3 @@ nav {
     top: unset;
     bottom: 4px;
 }
-
-/* .right-sidebar-user-icon img {
-    width: 40px;
-    border-radius: 50%;
-}
-
-.right-sidebar-user-icon {
-    margin-left: 30px;
-}
-
-.online {
-    position: relative;
-}
-
-.online::after {
-    content: '';
-    width: 7px;
-    height: 7px;
-    border: 2px solid #FFF;
-    border-radius: 50%;
-    background-color: #41DB51;
-    position: absolute;
-    top: 0;
-    right: 0;
-} */
