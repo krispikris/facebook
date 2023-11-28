@@ -498,20 +498,10 @@ nav {
 } */
 
 .comment-box-right img {
-    width: 14px;
+    width: 15px;
     color: #626262;
     margin-right: 4px;
 }
-/* .activity-icons div img{
-    width: 16px;
-    margin-right: 8px;
-}
-
-.activity-icons div {
-    display: inline-flex;
-    align-items: center;
-    margin-right: 36px;
-} */
 
 .bp-row-3-profile-icon {
     display: flex;
