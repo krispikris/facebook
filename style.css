@@ -249,7 +249,7 @@ nav {
 }
 
 /* Post Container */
-.post-input-container {
+.create-post-input-container {
     width: 100%;
     background: #FFF;
     border-radius: 12px;
@@ -257,14 +257,14 @@ nav {
     /* columns: #626262; */
 }
 
-.user-profile {
+.user-post {
     display: flex;
     align-items: center;
     padding: 0 4px 12px 4px;
     border-bottom: 1px solid #CCC
 }
 
-.user-profile img {
+.user-post img {
     width: 40px;
     border-radius: 50%;
     margin-right: 8px;
@@ -295,6 +295,13 @@ nav {
     align-items: center;
     padding: 16px 0 8px 0;
 }
+.add-post-links a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #626262;
+    font-size: 13px;
+}
 
 .add-post-links img {
     width: 24px;
@@ -306,13 +313,16 @@ nav {
     height: 22px;
 }
 
-.add-post-links a {
-    display: flex;
-    align-items: center;
+.posts-container {
+    width: 100%;
+    background: #FFF;
     color: #626262;
-    text-decoration: none;
-    font-size: 13px;
+    padding: 24px;
+    margin: 24px 0;
+    border-radius: 12px;
 }
+
+
 
 /* Right Sidebar | events • advertisement • friends (online list) */
 .right-sidebar {
