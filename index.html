@@ -117,8 +117,8 @@
 
         <!-- ---------- posts-feed ----------- -->
         <div class="posts-feed-container">
-          <div class="upper-post-feed-row">
-            <div class="user-profile-feed">
+          <div class="top-post-container">
+            <div class="top-post-user-profile">
               <img src="images/member-5.png" />
               <div>
                 <p>Brittany Hart</p>
@@ -132,27 +132,72 @@
             <a href="#"><i class="fas fa-ellipsis"></i></a>
           </div>
 
-          <div class="post-card">
-            <p class="post-feed-text">
+          <!-- ---------- middle-post-container | post-text • post-image ----------- -->
+          <div class="middle-post-container">
+            <!-- <div class="post-card"> -->
+            <p class="middle-post-text">
               Subscribe <span>@Easy Turorials</span> POST PARAGRAPH HERE<a
                 href="#"
                 >#EasyTutorials</a
               ><a href="#">#YouTubeChannel</a>
             </p>
-            <img src="images/feed-image-1.png" class="post-feed-img" />
+            <img src="images/feed-image-1.png" class="middle-post-img" />
 
-            <div class="post-activity-row">
-              <div class="activity-icons">
+            <!-- ---------- bottom-post-container | row-1 (like/comment count) • row-2 (like • comment • share) • row-3 (profile-pic • comment) ----------- -->
+            <div class="bottom-post-container">
+              <div class="bottom-post-row-1">
+                <!-- ---------- bp-group-1 | like & heart count ----------- -->
+                <div class="bp-row-1-left">
+                  <img src="images/icons/02-heart.png" id="heart-right" />
+                  <img src="images/icons/01-like.png" id="like-left" />
+                  <p>23</p>
+                </div>
+
+                <!-- ---------- bp-group-2 | comment & share count ----------- -->
+                <div class="bp-row-1-right">
+                  <p>2 comments</p>
+                  <p>2 shares</p>
+                </div>
+              </div>
+
+              <!-- ---------- bottom-post | row-2 | like • comment • share ----------- -->
+              <div class="bottom-post-row-2">
+                <img src="images/icons/01-a-like.png" />
+                <p>Like</p>
+                <img src="images/icons/02-a-comment.png" />
+                <p>Comment</p>
+                <img src="images/icons/03-a-share.png" />
+                <p>Share</p>
+              </div>
+
+              <!-- ---------- bottom-post | row-3 (profile-pic • comment) ----------- -->
+              <div class="bottom-post-row-3">
+                <div class="bp-row-3-profile-icon">
+                  <img src="images/profile-pic.png" /><i
+                    class="fas fa-caret-down"
+                  ></i>
+                </div>
+                <div class="comment-on-post-box">
+                  <div class="comment-box-left">
+                    <input type="text" placeholder="Write a comment..." />
+                  </div>
+                  <div class="comment-box-right">
+                    <img src="images/icons/01-b-avatar-sticker.png" />
+                    <img src="images/icons/02-b-emoji-smile.png" />
+                    <img src="images/icons/03-b-camera.png" />
+                    <img src="images/icons/04-b-gif.png" />
+                    <img src="images/icons/05-b-sticker-peel.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="bottom-post-row-1">
+              <!-- <div class="activity-icons">
                 <div><img src="images/like-blue.png" /> 50</div>
                 <div><img src="images/comments.png" /> 20</div>
                 <div><img src="images/share.png" /> 2</div>
-              </div>
-
-              <div class="post-profile-icon">
-                <img src="images/profile-pic.png" /><i
-                  class="fas fa-caret-down"
-                ></i>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
