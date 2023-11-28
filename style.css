@@ -408,7 +408,7 @@ nav {
 .bp-row-1-left p {
     margin-left: 8px;
     font-size: 14px;
-    color: var(--border-bottom-grey);
+    color: var(--secondary-text-grey);
 }
 
 .bottom-post-row-1 img {
@@ -537,7 +537,7 @@ nav {
 /* Events */
 .event {
     display: flex;
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 24px;
 }
 
