@@ -313,16 +313,98 @@ nav {
     height: 22px;
 }
 
-.posts-container {
+/* Posts Feed */
+.posts-feed-container {
     width: 100%;
     background: #FFF;
     color: #626262;
-    padding: 24px;
-    margin: 24px 0;
+    margin: 12px 0;
+    padding: 12px;
     border-radius: 12px;
 }
 
+.upper-post-feed-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 8px;
+}
 
+.user-profile-feed {
+    display: flex;
+    align-items: center;
+}
+
+.user-profile-feed img {
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.user-profile-feed i {
+    width: 80px;
+}
+
+.user-profile-feed p {
+    /* margin-bottom: -2px; */
+    font-size: 13.5px;
+    font-weight: 550;
+}
+
+.user-profile-feed span {
+    font-size: 11px;
+    color: rgba(98, 98, 98, 0.75);
+}
+
+.post-feed-text {
+    color: #9A9A9A;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.post-feed-text span {
+    color: #626262;
+    font-weight: 500;
+}
+
+.post-feed-text a {
+    color: #1876F2;
+    text-decoration: none;
+}
+
+.post-feed-img {
+    width: 100%;
+    border-radius: 8px;
+
+}
+
+.post-activity-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.activity-icons div img{
+    width: 16px;
+    margin-right: 8px;
+}
+
+.activity-icons div {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 36px;
+}
+
+.post-profile-icon {
+    display: flex;
+    align-items: center;
+}
+
+.post-profile-icon img {
+    width: 28px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
 
 /* Right Sidebar | events • advertisement • friends (online list) */
 .right-sidebar {
