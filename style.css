@@ -4,6 +4,16 @@
     font-family: Arial, Helvetica, sans-serif, sans-serif;
     /* font-family: 'poppins', sans-serif; */
     box-sizing: border-box;
+}
+
+:root {
+    --primary-text-black: black;
+    --secondary-text-grey: #626262;
+    --facebook-blue: #1876F2;
+    --online-green: #41DB51;
+    --white: #FFF;
+    --background-light-grey: #EFEFEF;
+    --bottom-border-grey: #CCC;
 
 }
 
@@ -27,7 +37,6 @@ nav {
 .nav-left, .nav-right {
     display: flex;
     align-items: center;
-    /* color: black */
 }
 
 /* Left Navigation Bar | facebook-icon • search-bar */
@@ -56,23 +65,18 @@ nav {
     background: transparent;
     border: 0;
     padding: 4px;
-    /* outline: none; */
 }
 
 /* Right Navigation Bar | icons (watch, messages, notifications) • profile-img */
 .nav-right ul li {
     display: inline-block;
     list-style: none;
-    /* color: rgb(0, 0, 0); */
 }
 
 .nav-right ul li img{
-    /* margin: 28px; */
     margin: 0 15px;
-    color: rgb(0, 0, 0);
     width: 28px;
     height: 28px;
-    /* align-items: right; */
 }
 
 .nav-user-icon img {
@@ -319,7 +323,6 @@ nav {
     background: #FFF;
     color: #626262;
     margin: 12px 0;
-    /* padding: 12px; */
     border-radius: 12px;
 }
 
@@ -352,7 +355,6 @@ nav {
 }
 
 .top-post-user-profile-feed p {
-    /* margin-bottom: -2px; */
     font-size: 13px;
     font-weight: 550;
     color: black;
@@ -395,7 +397,6 @@ nav {
     margin: 8px 12px;
     border-bottom: 1px solid #CCC;
     padding: 0 0 12px 0;
-    /* color: #626262; */
 }
 
 .bp-row-1-left {
@@ -441,7 +442,6 @@ nav {
     margin: 8px 12px;
     border-bottom: 1px solid #CCC;
     padding: 0 0 12px 0;
-    /* color: #626262; */
 }
 
 .bp-row-2-img-container {
@@ -462,7 +462,6 @@ nav {
     justify-content: space-between;
     margin: 16px 12px 0 12px;
     padding: 0 0 12px 0;
-    /* color: #626262; */
 }
 
 .bp-row-3-profile-icon i {
@@ -488,14 +487,7 @@ nav {
     border: 0;
     padding: 4px;
     font-size: 16px;
-    /* color: #626262; */
-    /* outline: none; */
 }
-
-/* .comment-box-right {
-    display: flex;
-    justify-content: right;
-} */
 
 .comment-box-right img {
     width: 15px;
@@ -521,10 +513,9 @@ nav {
     /* background: #FFF; */
     flex-basis: 25%;
     position: sticky;
-    /* top: 80px; */
     align-self: flex-start;
     padding: 12px;
-    /* padding: 24px; */
+    /* top: 80px; */
     color: #626262;
     border-radius: 12px;
 }
