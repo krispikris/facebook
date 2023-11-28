@@ -318,13 +318,15 @@ nav {
 
 /* Right Sidebar | events • advertisement • friends (online list) */
 .right-sidebar {
+    /* 2023 Facebook doesn't have white box  */
     /* background: #CBDFFA; */
-    background: #FFF;
+    /* background: #FFF; */
     flex-basis: 25%;
     position: sticky;
-    top: 80px;
+    /* top: 80px; */
     align-self: flex-start;
-    padding: 24px;
+    padding: 12px;
+    /* padding: 24px; */
     color: #626262;
     border-radius: 12px;
 }
