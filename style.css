@@ -159,6 +159,8 @@ nav {
     top: 74px;
     align-self: flex-start;
 }
+
+/* Story Section */
 .story-gallery {
     display: flex;
     justify-content: space-between;
@@ -169,7 +171,7 @@ nav {
     flex-basis: 18%;
     padding-top: 32%;
     position: relative;
-    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(images/status-1.png);
+    /* background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(images/status-1.png); */
     background-position: center;
     background-size: cover;
     border-radius: 12px;
@@ -182,15 +184,67 @@ nav {
     top: 12px;
     left: 12px;
     border-radius: 5px solid #626262;
+    border: #1876F2 solid 4px;
 }
 
 .story p {
     position: absolute;
     bottom: 12px;
     width: 100%;
-    text-align: center;
+    text-align: left;
     color: #FFF;
     font-size: 12px;
+    margin-left: 12px;
+}
+
+/* Individual Stories (5) */
+.story-my-story {
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(images/profile-pic.png);
+}
+
+.story-my-story .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 23%;
+    background-color: white; /* Set the background color to white */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 10px 10px;
+}
+
+.story-my-story p {
+    text-align: center;
+    margin: 0;
+    color: black
+}
+
+.story.story-my-story img {
+    top: unset;
+    left: 25%;
+    bottom: 32px;
+    transform: translateX(50%);
+    box-sizing: border-box;
+    border: #FFF solid 2.5px;
+    width: 32px;
+}
+
+.story-1 {
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(images/status-2.png);
+}
+
+.story-2 {
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(images/status-3.png);
+}
+
+.story-3 {
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(images/status-4.png);
+}
+
+.story-4 {
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(images/status-5.png);
 }
 
 /* Right Sidebar | events • advertisement • friends (online list) */
