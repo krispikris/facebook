@@ -9,6 +9,7 @@
 :root {
     --primary-text-black: black;
     --secondary-text-grey: #626262;
+    --third-text-grey: #9A9A9A;
     --facebook-blue: #1876F2;
     --online-green: #41DB51;
     --white: #FFF;
@@ -507,6 +508,19 @@ nav {
     margin-right: 8px;
 }
 
+.load-more-button {
+    display: block;
+    margin: auto;
+    margin-top: 16px;
+    cursor: pointer;
+    padding: 8px 12px;
+    border: 1px solid var(--third-text-grey);
+    color: var(--secondary-text-grey);
+    background: transparent;
+    border-radius: 4px;
+    
+}
+
 /* Right Sidebar | events • advertisement • friends (online list) */
 .right-sidebar {
     /* 2023 Facebook doesn't have white box  */
@@ -600,4 +614,19 @@ nav {
 .online-list .online::after {
     top: unset;
     bottom: 4px;
+}
+
+.footer {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    color: var(--third-text-grey);
+    padding: 12px 12px 24px 64px;
+    font-size: 12px;
+}
+
+.footer a {
+    color: #9A9A9A;
+    text-decoration: none;
 }
