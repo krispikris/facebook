@@ -44,16 +44,24 @@ nav {
     position: absolute;
     width: 90%;
     max-width: 350px;
-    height: 355px;
+    /* height: 355px; */
     background: var(--white);
     box-shadow: 0 0 10px rbga(0, 0, 0, 0.4);
     border-radius: 8px;
     top: 120%;
     right: 5%;
     overflow: hidden;
-    padding: 12px 16px;
+    max-height: 0;
+    transition: max-height 0.3s;
 }
 
+.settings-menu-height {
+    max-height: 450px;
+}
+
+.settings-menu-inner {
+        padding: 0 12px 12px 12px;
+}
 
 .settings-menu-user-profile {
     display: flex;
@@ -137,7 +145,8 @@ nav {
 .settings-menu-footer {
     color: var(--third-text-grey);
     font-size: 12px;
-    margin: 8px 0 0 4px;
+    /* margin: 8px 0 0 4px; */
+    padding: 0 12px 12px 16px;
 }
 
 .settings-menu-footer a {
