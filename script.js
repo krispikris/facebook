@@ -1,5 +1,10 @@
-var settingsmenu = document.querySelector('.settings-menu');
+let settingsmenu = document.querySelector('.settings-menu');
+let darkButton = document.getElementById('dark-btn');
 
-function settingsMenuToggle() {
+const settingsMenuToggle = () => {
   settingsmenu.classList.toggle('settings-menu-height');
-}
+};
+
+darkButton.onclick = () => {
+  darkButton.classList.toggle('dark-btn-on');
+};
