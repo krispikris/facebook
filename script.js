@@ -20,5 +20,5 @@ if (localStorage.getItem('theme') == 'light') {
   localStorage.setItem('theme', 'light');
 }
 
-// localStorage.setItem('theme', 'dark');
-// localStorage.getItem('theme');
+localStorage.setItem('theme', 'dark');
+localStorage.getItem('theme');
