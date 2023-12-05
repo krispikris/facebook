@@ -17,9 +17,9 @@
     <nav>
       <!-- ---------- navigation-left ----------- -->
       <div class="nav-left">
-        <img src="images/facebook-logo.png" class="logo" />
+        <img src="images/icons/nav/bar/facebook-logo.png" class="logo" />
         <div class="search-box">
-          <img src="images/search.png" class="search-icon" />
+          <img src="images/icons/nav/bar/search.png" class="search-icon" />
           <input type="text" placeholder="Search Facebook" />
         </div>
       </div>
@@ -27,9 +27,9 @@
       <!-- ---------- navigation-right ----------- -->
       <div class="nav-right">
         <ul>
-          <li><img src="images/video.png" /></li>
-          <li><img src="images/inbox.png" /></li>
-          <li><img src="images/notification.png" /></li>
+          <li><img src="images/icons/nav/bar/video.png" /></li>
+          <li><img src="images/icons/nav/bar/inbox.png" /></li>
+          <li><img src="images/icons/nav/bar/notification.png" /></li>
         </ul>
         <div class="nav-user-icon online" onclick="settingsMenuToggle()">
           <img src="images/profile-pic.png" />
@@ -153,22 +153,52 @@
       <!-- ---------- left-sidebar ----------- -->
       <div class="left-sidebar">
         <div class="important-links">
-          <a href="#"><img src="images/news.png" /> Latest News</a>
-          <a href="#"><img src="images/friends.png" /> Friends</a>
-          <a href="#"><img src="images/group.png" /> Groups</a>
-          <a href="#"><img src="images/marketplace.png" /> Marketplace</a>
-          <a href="#"><img src="images/watch.png" /> Watch</a>
+          <a href="#"
+            ><img src="images/icons/home/left-sidebar/news.png" /> Latest
+            News</a
+          >
+          <a href="#"
+            ><img src="images/icons/home/left-sidebar/friends.png" /> Friends</a
+          >
+          <a href="#"
+            ><img src="images/icons/home/left-sidebar/group.png" /> Groups</a
+          >
+          <a href="#"
+            ><img src="images/icons/home/left-sidebar/marketplace.png" />
+            Marketplace</a
+          >
+          <a href="#"
+            ><img src="images/icons/home/left-sidebar/watch.png" /> Watch</a
+          >
           <a href="#">See More</a>
         </div>
 
         <div class="shortcut-links">
           <p>Your Shortcuts</p>
-          <a href="#"><img src="images/shortcut-1.png" /> Web Developers</a>
-          <a href="#"><img src="images/shortcut-2.png" /> Web Design</a>
           <a href="#"
-            ><img src="images/shortcut-3.png" /> Full Stack Development</a
+            ><img
+              src="images/icons/home/left-sidebar/shortcuts/shortcut-1.png"
+            />
+            Web Developers</a
           >
-          <a href="#"><img src="images/shortcut-4.png" /> Branding</a>
+          <a href="#"
+            ><img
+              src="images/icons/home/left-sidebar/shortcuts/shortcut-2.png"
+            />
+            Web Design</a
+          >
+          <a href="#"
+            ><img
+              src="images/icons/home/left-sidebar/shortcuts/shortcut-3.png"
+            />
+            Full Stack Development</a
+          >
+          <a href="#"
+            ><img
+              src="images/icons/home/left-sidebar/shortcuts/shortcut-4.png"
+            />
+            Branding</a
+          >
         </div>
       </div>
 
@@ -178,7 +208,7 @@
         <div class="story-gallery">
           <div class="story story-my-story">
             <div class="overlay">
-              <img src="images/upload.png" />
+              <img src="images/icons/home/middle/stories/upload.png" />
               <p>Create Story</p>
             </div>
           </div>
@@ -217,11 +247,20 @@
           </div>
 
           <div class="add-post-links">
-            <a href="#"><img src="images/live-video.png" /> Live Video</a>
-            <a href="#"><img src="images/photo.png" /> Photo / Video</a>
             <a href="#"
-              ><img src="images/feeling.png" id="feeling" /> Feeling /
-              Activity</a
+              ><img src="images/icons/home/middle/post/live-video.png" /> Live
+              Video</a
+            >
+            <a href="#"
+              ><img src="images/icons/home/middle/post/photo.png" /> Photo /
+              Video</a
+            >
+            <a href="#"
+              ><img
+                src="images/icons/home/middle/post/feeling.png"
+                id="feeling"
+              />
+              Feeling / Activity</a
             >
           </div>
         </div>
@@ -252,7 +291,7 @@
               can't be more excited!<a href="#"> #NewJob</a
               ><a href="#"> #SoftwareEngineer</a>
             </p>
-            <img src="images/feed-image-1.png" class="middle-post-img" />
+            <img src="images/post/feed-image-1.png" class="middle-post-img" />
 
             <!-- ---------- bottom-post-container | row-1 (like/comment count) • row-2 (like • comment • share) • row-3 (profile-pic • comment) ----------- -->
             <div class="bottom-post-container">
@@ -260,8 +299,14 @@
               <div class="bottom-post-row-1">
                 <!-- ---------- bp-row-1-left | like/heart count ----------- -->
                 <div class="bp-row-1-left">
-                  <img src="images/icons/02-heart.png" id="heart-right" />
-                  <img src="images/icons/01-like.png" id="like-left" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/02-heart.png"
+                    id="heart-right"
+                  />
+                  <img
+                    src="images/icons/home/middle/post-bottom/01-like.png"
+                    id="like-left"
+                  />
                   <p>23</p>
                 </div>
 
@@ -275,17 +320,23 @@
               <!-- ---------- bottom-post | row-2 | like • comment • share ----------- -->
               <div class="bottom-post-row-2">
                 <div class="bp-row-2-img-container">
-                  <img src="images/icons/01-a-like.png" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/01-a-like.png"
+                  />
                   <p>Like</p>
                 </div>
 
                 <div class="bp-row-2-img-container">
-                  <img src="images/icons/02-a-comment.png" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/02-a-comment.png"
+                  />
                   <p>Comment</p>
                 </div>
 
                 <div class="bp-row-2-img-container">
-                  <img src="images/icons/03-a-share.png" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/03-a-share.png"
+                  />
                   <p>Share</p>
                 </div>
               </div>
@@ -301,11 +352,21 @@
                     <input type="text" placeholder="Write a comment..." />
                   </div>
                   <div class="comment-box-right">
-                    <img src="images/icons/01-b-avatar-sticker.png" />
-                    <img src="images/icons/02-b-emoji-smile.png" />
-                    <img src="images/icons/03-b-camera.png" />
-                    <img src="images/icons/04-b-gif.png" />
-                    <img src="images/icons/05-b-sticker-peel.png" />
+                    <img
+                      src="images/icons/home/middle/post-bottom/01-b-avatar-sticker.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/02-b-emoji-smile.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/03-b-camera.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/04-b-gif.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/05-b-sticker-peel.png"
+                    />
                   </div>
                 </div>
               </div>
@@ -334,7 +395,7 @@
             <p class="middle-post-text">
               Bonfires on the beach? Sign me up!<a href="#"> #friends</a>
             </p>
-            <img src="images/feed-image-2.png" class="middle-post-img" />
+            <img src="images/post/feed-image-2.png" class="middle-post-img" />
 
             <!-- ---------- bottom-post-container | row-1 (like/comment count) • row-2 (like • comment • share) • row-3 (profile-pic • comment) ----------- -->
             <div class="bottom-post-container">
@@ -342,8 +403,14 @@
               <div class="bottom-post-row-1">
                 <!-- ---------- bp-row-1-left | like/heart count ----------- -->
                 <div class="bp-row-1-left">
-                  <img src="images/icons/02-heart.png" id="heart-right" />
-                  <img src="images/icons/01-like.png" id="like-left" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/02-heart.png"
+                    id="heart-right"
+                  />
+                  <img
+                    src="images/icons/home/middle/post-bottom/01-like.png"
+                    id="like-left"
+                  />
                   <p>8</p>
                 </div>
 
@@ -356,17 +423,23 @@
               <!-- ---------- bottom-post | row-2 | like • comment • share ----------- -->
               <div class="bottom-post-row-2">
                 <div class="bp-row-2-img-container">
-                  <img src="images/icons/01-a-like.png" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/01-a-like.png"
+                  />
                   <p>Like</p>
                 </div>
 
                 <div class="bp-row-2-img-container">
-                  <img src="images/icons/02-a-comment.png" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/02-a-comment.png"
+                  />
                   <p>Comment</p>
                 </div>
 
                 <div class="bp-row-2-img-container">
-                  <img src="images/icons/03-a-share.png" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/03-a-share.png"
+                  />
                   <p>Share</p>
                 </div>
               </div>
@@ -382,11 +455,21 @@
                     <input type="text" placeholder="Write a comment..." />
                   </div>
                   <div class="comment-box-right">
-                    <img src="images/icons/01-b-avatar-sticker.png" />
-                    <img src="images/icons/02-b-emoji-smile.png" />
-                    <img src="images/icons/03-b-camera.png" />
-                    <img src="images/icons/04-b-gif.png" />
-                    <img src="images/icons/05-b-sticker-peel.png" />
+                    <img
+                      src="images/icons/home/middle/post-bottom/01-b-avatar-sticker.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/02-b-emoji-smile.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/03-b-camera.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/04-b-gif.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/05-b-sticker-peel.png"
+                    />
                   </div>
                 </div>
               </div>
@@ -413,7 +496,7 @@
           <!-- ---------- middle-post-container | post-text • post-image ----------- -->
           <div class="middle-post-container">
             <p class="middle-post-text">Making our way downtown.</p>
-            <img src="images/feed-image-3.png" class="middle-post-img" />
+            <img src="images/post/feed-image-3.png" class="middle-post-img" />
 
             <!-- ---------- bottom-post-container | row-1 (like/comment count) • row-2 (like • comment • share) • row-3 (profile-pic • comment) ----------- -->
             <div class="bottom-post-container">
@@ -421,8 +504,14 @@
               <div class="bottom-post-row-1">
                 <!-- ---------- bp-row-1-left | like/heart count ----------- -->
                 <div class="bp-row-1-left">
-                  <img src="images/icons/02-heart.png" id="heart-right" />
-                  <img src="images/icons/01-like.png" id="like-left" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/02-heart.png"
+                    id="heart-right"
+                  />
+                  <img
+                    src="images/icons/home/middle/post-bottom/01-like.png"
+                    id="like-left"
+                  />
                   <p>16</p>
                 </div>
 
@@ -436,17 +525,23 @@
               <!-- ---------- bottom-post | row-2 | like • comment • share ----------- -->
               <div class="bottom-post-row-2">
                 <div class="bp-row-2-img-container">
-                  <img src="images/icons/01-a-like.png" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/01-a-like.png"
+                  />
                   <p>Like</p>
                 </div>
 
                 <div class="bp-row-2-img-container">
-                  <img src="images/icons/02-a-comment.png" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/02-a-comment.png"
+                  />
                   <p>Comment</p>
                 </div>
 
                 <div class="bp-row-2-img-container">
-                  <img src="images/icons/03-a-share.png" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/03-a-share.png"
+                  />
                   <p>Share</p>
                 </div>
               </div>
@@ -462,11 +557,21 @@
                     <input type="text" placeholder="Write a comment..." />
                   </div>
                   <div class="comment-box-right">
-                    <img src="images/icons/01-b-avatar-sticker.png" />
-                    <img src="images/icons/02-b-emoji-smile.png" />
-                    <img src="images/icons/03-b-camera.png" />
-                    <img src="images/icons/04-b-gif.png" />
-                    <img src="images/icons/05-b-sticker-peel.png" />
+                    <img
+                      src="images/icons/home/middle/post-bottom/01-b-avatar-sticker.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/02-b-emoji-smile.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/03-b-camera.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/04-b-gif.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/05-b-sticker-peel.png"
+                    />
                   </div>
                 </div>
               </div>
@@ -496,7 +601,7 @@
               Beautiful views with the family. Here's a candid shot the homies.
             </p>
             <img
-              src="images/feed-image-4-friends.png"
+              src="images/post/feed-image-4-friends.png"
               class="middle-post-img"
             />
 
@@ -506,8 +611,14 @@
               <div class="bottom-post-row-1">
                 <!-- ---------- bp-row-1-left | like/heart count ----------- -->
                 <div class="bp-row-1-left">
-                  <img src="images/icons/02-heart.png" id="heart-right" />
-                  <img src="images/icons/01-like.png" id="like-left" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/02-heart.png"
+                    id="heart-right"
+                  />
+                  <img
+                    src="images/icons/home/middle/post-bottom/01-like.png"
+                    id="like-left"
+                  />
                   <p>17</p>
                 </div>
 
@@ -521,17 +632,23 @@
               <!-- ---------- bottom-post | row-2 | like • comment • share ----------- -->
               <div class="bottom-post-row-2">
                 <div class="bp-row-2-img-container">
-                  <img src="images/icons/01-a-like.png" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/01-a-like.png"
+                  />
                   <p>Like</p>
                 </div>
 
                 <div class="bp-row-2-img-container">
-                  <img src="images/icons/02-a-comment.png" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/02-a-comment.png"
+                  />
                   <p>Comment</p>
                 </div>
 
                 <div class="bp-row-2-img-container">
-                  <img src="images/icons/03-a-share.png" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/03-a-share.png"
+                  />
                   <p>Share</p>
                 </div>
               </div>
@@ -547,11 +664,21 @@
                     <input type="text" placeholder="Write a comment..." />
                   </div>
                   <div class="comment-box-right">
-                    <img src="images/icons/01-b-avatar-sticker.png" />
-                    <img src="images/icons/02-b-emoji-smile.png" />
-                    <img src="images/icons/03-b-camera.png" />
-                    <img src="images/icons/04-b-gif.png" />
-                    <img src="images/icons/05-b-sticker-peel.png" />
+                    <img
+                      src="images/icons/home/middle/post-bottom/01-b-avatar-sticker.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/02-b-emoji-smile.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/03-b-camera.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/04-b-gif.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/05-b-sticker-peel.png"
+                    />
                   </div>
                 </div>
               </div>
@@ -580,7 +707,10 @@
             <p class="middle-post-text">
               It's that time again for Fall Portraits! Hit me up!
             </p>
-            <img src="images/feed-image-5-fall.png" class="middle-post-img" />
+            <img
+              src="images/post/feed-image-5-fall.png"
+              class="middle-post-img"
+            />
 
             <!-- ---------- bottom-post-container | row-1 (like/comment count) • row-2 (like • comment • share) • row-3 (profile-pic • comment) ----------- -->
             <div class="bottom-post-container">
@@ -588,8 +718,14 @@
               <div class="bottom-post-row-1">
                 <!-- ---------- bp-row-1-left | like/heart count ----------- -->
                 <div class="bp-row-1-left">
-                  <img src="images/icons/02-heart.png" id="heart-right" />
-                  <img src="images/icons/01-like.png" id="like-left" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/02-heart.png"
+                    id="heart-right"
+                  />
+                  <img
+                    src="images/icons/home/middle/post-bottom/01-like.png"
+                    id="like-left"
+                  />
                   <p>12</p>
                 </div>
 
@@ -603,17 +739,23 @@
               <!-- ---------- bottom-post | row-2 | like • comment • share ----------- -->
               <div class="bottom-post-row-2">
                 <div class="bp-row-2-img-container">
-                  <img src="images/icons/01-a-like.png" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/01-a-like.png"
+                  />
                   <p>Like</p>
                 </div>
 
                 <div class="bp-row-2-img-container">
-                  <img src="images/icons/02-a-comment.png" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/02-a-comment.png"
+                  />
                   <p>Comment</p>
                 </div>
 
                 <div class="bp-row-2-img-container">
-                  <img src="images/icons/03-a-share.png" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/03-a-share.png"
+                  />
                   <p>Share</p>
                 </div>
               </div>
@@ -629,11 +771,21 @@
                     <input type="text" placeholder="Write a comment..." />
                   </div>
                   <div class="comment-box-right">
-                    <img src="images/icons/01-b-avatar-sticker.png" />
-                    <img src="images/icons/02-b-emoji-smile.png" />
-                    <img src="images/icons/03-b-camera.png" />
-                    <img src="images/icons/04-b-gif.png" />
-                    <img src="images/icons/05-b-sticker-peel.png" />
+                    <img
+                      src="images/icons/home/middle/post-bottom/01-b-avatar-sticker.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/02-b-emoji-smile.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/03-b-camera.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/04-b-gif.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/05-b-sticker-peel.png"
+                    />
                   </div>
                 </div>
               </div>
@@ -663,7 +815,7 @@
               Counting down the days to my next adventure.
             </p>
             <img
-              src="images/feed-image-6-great-outdoors.png"
+              src="images/post/feed-image-6-great-outdoors.png"
               class="middle-post-img"
             />
 
@@ -673,8 +825,14 @@
               <div class="bottom-post-row-1">
                 <!-- ---------- bp-row-1-left | like/heart count ----------- -->
                 <div class="bp-row-1-left">
-                  <img src="images/icons/02-heart.png" id="heart-right" />
-                  <img src="images/icons/01-like.png" id="like-left" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/02-heart.png"
+                    id="heart-right"
+                  />
+                  <img
+                    src="images/icons/home/middle/post-bottom/01-like.png"
+                    id="like-left"
+                  />
                   <p>36</p>
                 </div>
 
@@ -688,17 +846,23 @@
               <!-- ---------- bottom-post | row-2 | like • comment • share ----------- -->
               <div class="bottom-post-row-2">
                 <div class="bp-row-2-img-container">
-                  <img src="images/icons/01-a-like.png" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/01-a-like.png"
+                  />
                   <p>Like</p>
                 </div>
 
                 <div class="bp-row-2-img-container">
-                  <img src="images/icons/02-a-comment.png" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/02-a-comment.png"
+                  />
                   <p>Comment</p>
                 </div>
 
                 <div class="bp-row-2-img-container">
-                  <img src="images/icons/03-a-share.png" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/03-a-share.png"
+                  />
                   <p>Share</p>
                 </div>
               </div>
@@ -714,11 +878,21 @@
                     <input type="text" placeholder="Write a comment..." />
                   </div>
                   <div class="comment-box-right">
-                    <img src="images/icons/01-b-avatar-sticker.png" />
-                    <img src="images/icons/02-b-emoji-smile.png" />
-                    <img src="images/icons/03-b-camera.png" />
-                    <img src="images/icons/04-b-gif.png" />
-                    <img src="images/icons/05-b-sticker-peel.png" />
+                    <img
+                      src="images/icons/home/middle/post-bottom/01-b-avatar-sticker.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/02-b-emoji-smile.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/03-b-camera.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/04-b-gif.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/05-b-sticker-peel.png"
+                    />
                   </div>
                 </div>
               </div>
@@ -750,7 +924,10 @@
               me!
               <a href="#"> #Boxing</a>
             </p>
-            <img src="images/feed-image-7-box.png" class="middle-post-img" />
+            <img
+              src="images/post/feed-image-7-box.png"
+              class="middle-post-img"
+            />
 
             <!-- ---------- bottom-post-container | row-1 (like/comment count) • row-2 (like • comment • share) • row-3 (profile-pic • comment) ----------- -->
             <div class="bottom-post-container">
@@ -758,8 +935,14 @@
               <div class="bottom-post-row-1">
                 <!-- ---------- bp-row-1-left | like/heart count ----------- -->
                 <div class="bp-row-1-left">
-                  <img src="images/icons/02-heart.png" id="heart-right" />
-                  <img src="images/icons/01-like.png" id="like-left" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/02-heart.png"
+                    id="heart-right"
+                  />
+                  <img
+                    src="images/icons/home/middle/post-bottom/01-like.png"
+                    id="like-left"
+                  />
                   <p>44</p>
                 </div>
 
@@ -773,17 +956,23 @@
               <!-- ---------- bottom-post | row-2 | like • comment • share ----------- -->
               <div class="bottom-post-row-2">
                 <div class="bp-row-2-img-container">
-                  <img src="images/icons/01-a-like.png" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/01-a-like.png"
+                  />
                   <p>Like</p>
                 </div>
 
                 <div class="bp-row-2-img-container">
-                  <img src="images/icons/02-a-comment.png" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/02-a-comment.png"
+                  />
                   <p>Comment</p>
                 </div>
 
                 <div class="bp-row-2-img-container">
-                  <img src="images/icons/03-a-share.png" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/03-a-share.png"
+                  />
                   <p>Share</p>
                 </div>
               </div>
@@ -799,11 +988,21 @@
                     <input type="text" placeholder="Write a comment..." />
                   </div>
                   <div class="comment-box-right">
-                    <img src="images/icons/01-b-avatar-sticker.png" />
-                    <img src="images/icons/02-b-emoji-smile.png" />
-                    <img src="images/icons/03-b-camera.png" />
-                    <img src="images/icons/04-b-gif.png" />
-                    <img src="images/icons/05-b-sticker-peel.png" />
+                    <img
+                      src="images/icons/home/middle/post-bottom/01-b-avatar-sticker.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/02-b-emoji-smile.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/03-b-camera.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/04-b-gif.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/05-b-sticker-peel.png"
+                    />
                   </div>
                 </div>
               </div>
@@ -833,7 +1032,7 @@
               Hoops Dream with a Sunset. What more can I ask for?
             </p>
             <img
-              src="images/feed-image-8-bb-sunset.png"
+              src="images/post/feed-image-8-bb-sunset.png"
               class="middle-post-img"
             />
 
@@ -843,8 +1042,14 @@
               <div class="bottom-post-row-1">
                 <!-- ---------- bp-row-1-left | like/heart count ----------- -->
                 <div class="bp-row-1-left">
-                  <img src="images/icons/02-heart.png" id="heart-right" />
-                  <img src="images/icons/01-like.png" id="like-left" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/02-heart.png"
+                    id="heart-right"
+                  />
+                  <img
+                    src="images/icons/home/middle/post-bottom/01-like.png"
+                    id="like-left"
+                  />
                   <p>41</p>
                 </div>
 
@@ -858,17 +1063,23 @@
               <!-- ---------- bottom-post | row-2 | like • comment • share ----------- -->
               <div class="bottom-post-row-2">
                 <div class="bp-row-2-img-container">
-                  <img src="images/icons/01-a-like.png" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/01-a-like.png"
+                  />
                   <p>Like</p>
                 </div>
 
                 <div class="bp-row-2-img-container">
-                  <img src="images/icons/02-a-comment.png" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/02-a-comment.png"
+                  />
                   <p>Comment</p>
                 </div>
 
                 <div class="bp-row-2-img-container">
-                  <img src="images/icons/03-a-share.png" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/03-a-share.png"
+                  />
                   <p>Share</p>
                 </div>
               </div>
@@ -884,11 +1095,21 @@
                     <input type="text" placeholder="Write a comment..." />
                   </div>
                   <div class="comment-box-right">
-                    <img src="images/icons/01-b-avatar-sticker.png" />
-                    <img src="images/icons/02-b-emoji-smile.png" />
-                    <img src="images/icons/03-b-camera.png" />
-                    <img src="images/icons/04-b-gif.png" />
-                    <img src="images/icons/05-b-sticker-peel.png" />
+                    <img
+                      src="images/icons/home/middle/post-bottom/01-b-avatar-sticker.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/02-b-emoji-smile.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/03-b-camera.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/04-b-gif.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/05-b-sticker-peel.png"
+                    />
                   </div>
                 </div>
               </div>
@@ -916,7 +1137,7 @@
           <div class="middle-post-container">
             <p class="middle-post-text">More moments like these!</p>
             <img
-              src="images/feed-image-9-friends-sunset.png"
+              src="images/post/feed-image-9-friends-sunset.png"
               class="middle-post-img"
             />
 
@@ -926,8 +1147,14 @@
               <div class="bottom-post-row-1">
                 <!-- ---------- bp-row-1-left | like/heart count ----------- -->
                 <div class="bp-row-1-left">
-                  <img src="images/icons/02-heart.png" id="heart-right" />
-                  <img src="images/icons/01-like.png" id="like-left" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/02-heart.png"
+                    id="heart-right"
+                  />
+                  <img
+                    src="images/icons/home/middle/post-bottom/01-like.png"
+                    id="like-left"
+                  />
                   <p>15</p>
                 </div>
 
@@ -941,17 +1168,23 @@
               <!-- ---------- bottom-post | row-2 | like • comment • share ----------- -->
               <div class="bottom-post-row-2">
                 <div class="bp-row-2-img-container">
-                  <img src="images/icons/01-a-like.png" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/01-a-like.png"
+                  />
                   <p>Like</p>
                 </div>
 
                 <div class="bp-row-2-img-container">
-                  <img src="images/icons/02-a-comment.png" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/02-a-comment.png"
+                  />
                   <p>Comment</p>
                 </div>
 
                 <div class="bp-row-2-img-container">
-                  <img src="images/icons/03-a-share.png" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/03-a-share.png"
+                  />
                   <p>Share</p>
                 </div>
               </div>
@@ -967,11 +1200,21 @@
                     <input type="text" placeholder="Write a comment..." />
                   </div>
                   <div class="comment-box-right">
-                    <img src="images/icons/01-b-avatar-sticker.png" />
-                    <img src="images/icons/02-b-emoji-smile.png" />
-                    <img src="images/icons/03-b-camera.png" />
-                    <img src="images/icons/04-b-gif.png" />
-                    <img src="images/icons/05-b-sticker-peel.png" />
+                    <img
+                      src="images/icons/home/middle/post-bottom/01-b-avatar-sticker.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/02-b-emoji-smile.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/03-b-camera.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/04-b-gif.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/05-b-sticker-peel.png"
+                    />
                   </div>
                 </div>
               </div>
@@ -1000,7 +1243,7 @@
             <p class="middle-post-text">
               My mom has been putting in that work!
             </p>
-            <img src="images/feed-image-10.png" class="middle-post-img" />
+            <img src="images/post/feed-image-10.png" class="middle-post-img" />
 
             <!-- ---------- bottom-post-container | row-1 (like/comment count) • row-2 (like • comment • share) • row-3 (profile-pic • comment) ----------- -->
             <div class="bottom-post-container">
@@ -1008,8 +1251,14 @@
               <div class="bottom-post-row-1">
                 <!-- ---------- bp-row-1-left | like/heart count ----------- -->
                 <div class="bp-row-1-left">
-                  <img src="images/icons/02-heart.png" id="heart-right" />
-                  <img src="images/icons/01-like.png" id="like-left" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/02-heart.png"
+                    id="heart-right"
+                  />
+                  <img
+                    src="images/icons/home/middle/post-bottom/01-like.png"
+                    id="like-left"
+                  />
                   <p>15</p>
                 </div>
 
@@ -1023,17 +1272,23 @@
               <!-- ---------- bottom-post | row-2 | like • comment • share ----------- -->
               <div class="bottom-post-row-2">
                 <div class="bp-row-2-img-container">
-                  <img src="images/icons/01-a-like.png" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/01-a-like.png"
+                  />
                   <p>Like</p>
                 </div>
 
                 <div class="bp-row-2-img-container">
-                  <img src="images/icons/02-a-comment.png" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/02-a-comment.png"
+                  />
                   <p>Comment</p>
                 </div>
 
                 <div class="bp-row-2-img-container">
-                  <img src="images/icons/03-a-share.png" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/03-a-share.png"
+                  />
                   <p>Share</p>
                 </div>
               </div>
@@ -1049,11 +1304,21 @@
                     <input type="text" placeholder="Write a comment..." />
                   </div>
                   <div class="comment-box-right">
-                    <img src="images/icons/01-b-avatar-sticker.png" />
-                    <img src="images/icons/02-b-emoji-smile.png" />
-                    <img src="images/icons/03-b-camera.png" />
-                    <img src="images/icons/04-b-gif.png" />
-                    <img src="images/icons/05-b-sticker-peel.png" />
+                    <img
+                      src="images/icons/home/middle/post-bottom/01-b-avatar-sticker.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/02-b-emoji-smile.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/03-b-camera.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/04-b-gif.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/05-b-sticker-peel.png"
+                    />
                   </div>
                 </div>
               </div>
@@ -1080,7 +1345,7 @@
           <!-- ---------- middle-post-container | post-text • post-image ----------- -->
           <div class="middle-post-container">
             <p class="middle-post-text">Working hard? Or hardly working?</p>
-            <img src="images/feed-image-11.png" class="middle-post-img" />
+            <img src="images/post/feed-image-11.png" class="middle-post-img" />
 
             <!-- ---------- bottom-post-container | row-1 (like/comment count) • row-2 (like • comment • share) • row-3 (profile-pic • comment) ----------- -->
             <div class="bottom-post-container">
@@ -1088,8 +1353,14 @@
               <div class="bottom-post-row-1">
                 <!-- ---------- bp-row-1-left | like/heart count ----------- -->
                 <div class="bp-row-1-left">
-                  <img src="images/icons/02-heart.png" id="heart-right" />
-                  <img src="images/icons/01-like.png" id="like-left" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/02-heart.png"
+                    id="heart-right"
+                  />
+                  <img
+                    src="images/icons/home/middle/post-bottom/01-like.png"
+                    id="like-left"
+                  />
                   <p>8</p>
                 </div>
 
@@ -1102,17 +1373,23 @@
               <!-- ---------- bottom-post | row-2 | like • comment • share ----------- -->
               <div class="bottom-post-row-2">
                 <div class="bp-row-2-img-container">
-                  <img src="images/icons/01-a-like.png" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/01-a-like.png"
+                  />
                   <p>Like</p>
                 </div>
 
                 <div class="bp-row-2-img-container">
-                  <img src="images/icons/02-a-comment.png" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/02-a-comment.png"
+                  />
                   <p>Comment</p>
                 </div>
 
                 <div class="bp-row-2-img-container">
-                  <img src="images/icons/03-a-share.png" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/03-a-share.png"
+                  />
                   <p>Share</p>
                 </div>
               </div>
@@ -1128,11 +1405,21 @@
                     <input type="text" placeholder="Write a comment..." />
                   </div>
                   <div class="comment-box-right">
-                    <img src="images/icons/01-b-avatar-sticker.png" />
-                    <img src="images/icons/02-b-emoji-smile.png" />
-                    <img src="images/icons/03-b-camera.png" />
-                    <img src="images/icons/04-b-gif.png" />
-                    <img src="images/icons/05-b-sticker-peel.png" />
+                    <img
+                      src="images/icons/home/middle/post-bottom/01-b-avatar-sticker.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/02-b-emoji-smile.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/03-b-camera.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/04-b-gif.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/05-b-sticker-peel.png"
+                    />
                   </div>
                 </div>
               </div>
@@ -1160,7 +1447,7 @@
           <div class="middle-post-container">
             <p class="middle-post-text">Missing nature already!</p>
             <img
-              src="images/feed-image-12-solo-hike.png"
+              src="images/post/feed-image-12-solo-hike.png"
               class="middle-post-img"
             />
 
@@ -1170,8 +1457,14 @@
               <div class="bottom-post-row-1">
                 <!-- ---------- bp-row-1-left | like/heart count ----------- -->
                 <div class="bp-row-1-left">
-                  <img src="images/icons/02-heart.png" id="heart-right" />
-                  <img src="images/icons/01-like.png" id="like-left" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/02-heart.png"
+                    id="heart-right"
+                  />
+                  <img
+                    src="images/icons/home/middle/post-bottom/01-like.png"
+                    id="like-left"
+                  />
                   <p>33</p>
                 </div>
 
@@ -1185,17 +1478,23 @@
               <!-- ---------- bottom-post | row-2 | like • comment • share ----------- -->
               <div class="bottom-post-row-2">
                 <div class="bp-row-2-img-container">
-                  <img src="images/icons/01-a-like.png" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/01-a-like.png"
+                  />
                   <p>Like</p>
                 </div>
 
                 <div class="bp-row-2-img-container">
-                  <img src="images/icons/02-a-comment.png" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/02-a-comment.png"
+                  />
                   <p>Comment</p>
                 </div>
 
                 <div class="bp-row-2-img-container">
-                  <img src="images/icons/03-a-share.png" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/03-a-share.png"
+                  />
                   <p>Share</p>
                 </div>
               </div>
@@ -1211,11 +1510,21 @@
                     <input type="text" placeholder="Write a comment..." />
                   </div>
                   <div class="comment-box-right">
-                    <img src="images/icons/01-b-avatar-sticker.png" />
-                    <img src="images/icons/02-b-emoji-smile.png" />
-                    <img src="images/icons/03-b-camera.png" />
-                    <img src="images/icons/04-b-gif.png" />
-                    <img src="images/icons/05-b-sticker-peel.png" />
+                    <img
+                      src="images/icons/home/middle/post-bottom/01-b-avatar-sticker.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/02-b-emoji-smile.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/03-b-camera.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/04-b-gif.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/05-b-sticker-peel.png"
+                    />
                   </div>
                 </div>
               </div>
@@ -1243,7 +1552,7 @@
           <div class="middle-post-container">
             <p class="middle-post-text">I was freezing! But it was worth it!</p>
             <img
-              src="images/feed-image-13-winter.png"
+              src="images/post/feed-image-13-winter.png"
               class="middle-post-img"
             />
 
@@ -1253,8 +1562,14 @@
               <div class="bottom-post-row-1">
                 <!-- ---------- bp-row-1-left | like/heart count ----------- -->
                 <div class="bp-row-1-left">
-                  <img src="images/icons/02-heart.png" id="heart-right" />
-                  <img src="images/icons/01-like.png" id="like-left" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/02-heart.png"
+                    id="heart-right"
+                  />
+                  <img
+                    src="images/icons/home/middle/post-bottom/01-like.png"
+                    id="like-left"
+                  />
                   <p>81</p>
                 </div>
 
@@ -1268,17 +1583,23 @@
               <!-- ---------- bottom-post | row-2 | like • comment • share ----------- -->
               <div class="bottom-post-row-2">
                 <div class="bp-row-2-img-container">
-                  <img src="images/icons/01-a-like.png" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/01-a-like.png"
+                  />
                   <p>Like</p>
                 </div>
 
                 <div class="bp-row-2-img-container">
-                  <img src="images/icons/02-a-comment.png" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/02-a-comment.png"
+                  />
                   <p>Comment</p>
                 </div>
 
                 <div class="bp-row-2-img-container">
-                  <img src="images/icons/03-a-share.png" />
+                  <img
+                    src="images/icons/home/middle/post-bottom/03-a-share.png"
+                  />
                   <p>Share</p>
                 </div>
               </div>
@@ -1294,11 +1615,21 @@
                     <input type="text" placeholder="Write a comment..." />
                   </div>
                   <div class="comment-box-right">
-                    <img src="images/icons/01-b-avatar-sticker.png" />
-                    <img src="images/icons/02-b-emoji-smile.png" />
-                    <img src="images/icons/03-b-camera.png" />
-                    <img src="images/icons/04-b-gif.png" />
-                    <img src="images/icons/05-b-sticker-peel.png" />
+                    <img
+                      src="images/icons/home/middle/post-bottom/01-b-avatar-sticker.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/02-b-emoji-smile.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/03-b-camera.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/04-b-gif.png"
+                    />
+                    <img
+                      src="images/icons/home/middle/post-bottom/05-b-sticker-peel.png"
+                    />
                   </div>
                 </div>
               </div>
@@ -1347,7 +1678,10 @@
           <h4>Advertisement</h4>
           <a href="#">Close</a>
         </div>
-        <img src="images/advertisement.png" class="right-sidebar-ads" />
+        <img
+          src="images/icons/home/right-sidebar/advertisement.png"
+          class="right-sidebar-ads"
+        />
 
         <!-- ---------- online-list (multiple friends) ----------- -->
         <div class="right-sidebar-title">
