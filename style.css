@@ -360,7 +360,7 @@ nav {
 
 /* Individual Stories (5) */
 .story-my-story {
-    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(images/profile-pic.png);
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(images/profile-pages/kris/kris-profile-pic.png);
 }
 
 .story-my-story .overlay {
